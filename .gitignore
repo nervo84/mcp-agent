@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+.env
+
+# Poetry lock file (keep pyproject.toml tracked, ignore .lock only if you want)
+# (optional: usually you want to track poetry.lock)
+# poetry.lock
+
+# VSCode settings
+.vscode/
+
+# MacOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+
+# Qodo file
+.qodo

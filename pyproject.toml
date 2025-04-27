@@ -1,0 +1,24 @@
+[project]
+name = "mcp-agent"
+version = "0.1.0"
+description = "Implementation of an MCP (Model Context Protocol) architecture featuring an MCP client and an MCP server. The project enables structured communication between distributed systems, supporting asynchronous interactions and efficient message handling."
+authors = [
+    {name = "Salvatore Postiglione",email = "salvatore.postiglione@par-tec.it"}
+]
+license = {text = "MIT License"}
+readme = "README.md"
+requires-python = ">=3.11,<4.0"
+dependencies = [
+    "yfinance (>=0.2.56,<0.3.0)",
+    "asyncio (>=3.4.3,<4.0.0)",
+    "langchain-mcp-adapters (>=0.0.9,<0.0.10)",
+    "langchain-openai (>=0.3.14,<0.4.0)",
+    "langgraph (>=0.3.34,<0.4.0)",
+    "fastmcp (>=2.2.5,<3.0.0)",
+    "python-dotenv (>=1.1.0,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
